@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "save": "git add . && git commit -m \"Netlify with express 🎉🎉🎉\" && git push -u origin master",
-    "dev": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
-    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
+    "dev": "NODE_ENV=development netlify-lambda serve src",
+    "build": "NODE_ENV=production netlify-lambda build src"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Hasan Sefa Ozalp",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "netlify-lambda": "^1.6.3",
